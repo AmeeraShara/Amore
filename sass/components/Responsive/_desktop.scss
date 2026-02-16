@@ -1,0 +1,568 @@
+// 4.1 Desktop
+
+/* CONTAINER */
+@media (min-width:1200px){
+  .container {
+      width: 1200px !important;
+  }
+}
+/* END/CONTAINER */
+@media (min-width: 992px)and(max-width: 1200px) {
+    /* NAV HEADER */
+    .header-sky {
+        .navbar {
+            .navbar-header {
+                .navbar-brand {
+                    img {
+                        width: 90%;
+                    }
+                }
+            }
+            .navbar-nav {
+                li {
+                    padding: 35px 18px;
+                    a {
+                        font-size: 12px;
+                    }
+                    .dropdown-menu {
+                        min-width: 160px;
+                    }
+                }
+            }
+        }
+    }
+    /* END / NAV HEADER */
+    /* NEW */
+    .news {
+        .text {
+            a {
+                font-size: 25px !important;
+            }
+        }
+    }
+    /* END/NEW */
+    /* MAP */
+    .section-map-v4 {
+        iframe {
+            height: 40rem;
+        }
+    }
+    /* END/MAP */
+    /* FOOTRER */
+    .footer-sky {
+        &.footer-sky-v4 {
+            .footer-bottom {
+                .payments {
+                    li {
+                        padding-left: 19px;
+                    }
+                }
+            }
+        }
+        .footer-top {
+            &.footer-top-v3 {
+                padding-bottom: 90px;
+                .bg-v3 {
+                    .icon-email {
+                        margin: 0;
+                    }
+                    .textbox {
+                        margin-left: -40px;
+                    }
+                    .footer-icon-l {
+                        .fa {
+                            padding-left: 40px;
+                        }
+                    }
+                }
+            }
+            padding: 20px;
+            .icon-email {
+                margin-top: 8px;
+            }
+        }
+    }
+    /* END/FOOTER */
+    /* GALLERY */
+    .gallery-our {
+        .gallery {
+            margin: 0;
+        }
+    }
+    /* END/GALLERY */
+    /*TESTIMONIALS */
+    .testimonials {
+        .testimonials-h {
+            .testimonials-content {
+                .testimonials-p {
+                    padding: 0;
+                }
+            }
+        }
+    }
+    /* END / TESTIMONIALS */
+    .best {
+        margin-bottom: 40px;
+    }
+    /* SECTION-SLIDER  */
+    .section-slider {
+        .check-avail {
+            .date-title {
+                height: 100px;
+            }
+            .arrival,
+            .departure {
+                padding: 15px 20px 10px 20px !important;
+            }
+            .adults,
+            .children {
+                padding-top: 15px !important;
+                .btn-group {
+                    margin-top: -28px !important;
+                    .dropdown-menu {
+                        min-width: 111px !important;
+                        top: 94% !important;
+                        left: 0px;
+                    }
+                    .btn {
+                        width: 111px !important;
+                        margin-top: 8px;
+                    }
+                }
+            }
+            .find_btn {
+                .text-find {
+                    padding-top: 28px !important;
+                }
+            }
+        }
+        .item {
+            img {
+                // height: 40em;
+            }
+            .carousel-caption {
+                transform: translate(-50%, -55%);
+                h1 {
+                    font-size: 57px;
+                    margin-bottom: 5px;
+                    &.v2 {}
+                }
+                p {
+                    font-size: 25px;
+                    &.p-v2 {}
+                    .line-t {
+                        width: 50px;
+                    }
+                    .line-b {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .section-slider {
+        &.height-v {
+            .item {
+                img {
+                    width: 170%;
+                    max-width: 300%;
+                }
+            }
+        }
+    }
+    /* END /SECTION-SLIDER*/
+    /* ROOMS */
+    .rooms {
+        &.rooms-v4 {
+            .wrap-rooms {
+                .wrap-box-v4 {
+                    .rooms-content {}
+                    .content {
+                        .rooms-content1 {
+                            .sky-h4 {
+                                font-size: 20px;
+                                margin-top: 0;
+                            }
+                            .price {
+                                font-size: 14px;
+                            }
+                        }
+                        p {
+                            font-size: 12px;
+                        }
+                        .bottom-room {
+                            padding: 15px 5px 20px;
+                            ul {
+                                li {
+                                    padding: 3px 0px 3px 12px;
+                                    img {
+                                        vertical-align: middle;
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .rooms-p {
+            color: #ABABAB;
+            font-weight: 300;
+            font-size: 16px;
+            width: 60%;
+            margin: 0 auto;
+            margin-top: 0px;
+            margin-top: 15px;
+        }
+    }
+    /* END/ROOMS */
+    /*ABOUT */
+    .about {
+        &.about-v4 {
+            margin-bottom: 6rem !important;
+        }
+        &.about-v2 {
+            margin-bottom: 17%;
+            .about-img {
+                margin-top: 0;
+                text-align: center;
+                left: initial;
+                right: initial;
+                .img-1 {
+                    max-width: 100%;
+                    float: none;
+                    img {
+                        display: block;
+                    }
+                    .img-2 {
+                        right: -22%;
+                    }
+                }
+            }
+        }
+        &.about-v3 {
+            margin-bottom: 6%;
+        }
+        margin-bottom: 6em;
+        .about-img {
+            margin-top: 35px;
+            float: none;
+            .img-1 {
+                float: right;
+                width: 82%;
+                .img-2 {
+                    top: 50%;
+                    left: -22%;
+                    width: 70%;
+                }
+                .img-3 {
+                    top: 84%;
+                    left: 27%;
+                    width: 50%
+                }
+            }
+        }
+        .about-centent {
+            p {
+                padding: 0;
+            }
+        }
+    }
+    /* END / ABOUT */
+    /* BODY-ROOM */
+    .body-room-1 {
+        .room-wrap-1 {
+            .content {
+                ul {
+                    li {
+                        width: calc(50% - 0%) !important;
+                    }
+                }
+            }
+        }
+    }
+    .body-room-2 {
+        .wrap-room2 {
+            .text {
+                padding-top: 0px;
+                p {
+                    font-size: 14px;
+                }
+                .h5-room {
+                    margin-bottom: 17px;
+                    margin-top: 15px;
+                }
+                .h2-rooms {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .body-room-3 {
+        .wrap-room-3 {
+            .wrap-item {
+                .text-room-3 {
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    .img1 {
+                        margin-right: 40px;
+                    }
+                    .img2 {
+                        margin-left: 0;
+                    }
+                    .text {
+                        width: 570px;
+                    }
+                }
+            }
+        }
+    }
+    .body-room-5 {
+        .wrap-room-5 {
+            .wrap-item {
+                .text-room-5 {
+                    bottom: 10px;
+                    left: 30px;
+                    .h2-rooms {
+                        font-size: 20px;
+                    }
+                    .h5-room {
+                        font-size: 13px;
+                    }
+                }
+                .text-hover {
+                    .text {
+                        .h2-rooms {
+                            font-size: 20px;
+                        }
+                        .h5-room {
+                            font-size: 13px;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            font-size: 13px;
+                        }
+                        .view-dateails {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .checkout-option {
+        .card {
+            display: block !important;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+    }
+    .body-restaurant {
+        .restaurant_item {
+            .text {
+                h2 {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    /*  END/BODY-ROOM */
+    /*  RESTAURANT */
+    .section-event-restaurant {
+        .event-restaurant {
+            .event-restaurant_header {
+                margin-top: 0;
+            }
+        }
+    }
+    /* END/RETAURANT */
+    /*  BLOG */
+    .section-blog {
+        .blog {
+            .sidebar {
+                margin-right: 0px;
+            }
+        }
+    }
+    /*  END/BLOG */
+    /* ABOUT */
+    .section-about {
+        .wrap-about {
+            .text {
+                margin-top: 0px;
+                padding-right: 25px;
+                .heading {
+                    margin: 0;
+                }
+                .desc {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /* END/ABOUT */
+    /* RESERVATION */
+    .reservation-calendar_custom {
+        .reservation-calendar_tabel {
+            td a span {
+                top: 45%;
+                font-size: 9px;
+            }
+        }
+    }
+    /* END/RESERVATION */
+}
+
+@media all and (min-width: 1200px) {
+    /* MAP */
+    .section-map-v4 {
+        iframe {
+            height: 43rem;
+        }
+    }
+    /* END/MAP */
+    .navbar-header-v3 {
+        text-align: center;
+        background: rgba(6, 6, 6, 0.33);
+        .navbar-header {
+            display: none;
+        }
+        .navbar-right {
+            float: initial !important;
+            display: inline-block;
+            vertical-align: middle;
+            li {
+                padding: 15px 25px !important;
+            }
+        }
+    }
+    /* HEADER */
+    .header-top-v3 {
+        border: none;
+        text-align: center;
+        padding: 45px 0px 37px 0px;
+        .logo-v3 {
+            width: auto;
+            display: block !important;
+            img {
+                max-width: 100%;
+                height: auto;
+                vertical-align: middle;
+                border: 0;
+                display: inline-block;
+                margin-top: -13px;
+            }
+        }
+        .header-top-right-v3 {
+            .dropdown {
+                &:hover {
+                    .dropdown-menu {
+                        transform: translate(0px)!important;
+                        -moz-transform: translateY(0px)!important;
+                        -webkit-transform: translateY(0px)!important;
+                        -ms-transform: translateY(0px)!important;
+                    }
+                }
+                .dropdown-menu {
+                    transform: translate(40px)!important;
+                    -moz-transform: translateY(40px)!important;
+                    -webkit-transform: translateY(40px)!important;
+                    -ms-transform: translateY(40px)!important;
+                }
+            }
+        }
+    }
+    .header-top-sky {
+        .bg-top-v {
+            background: #080303;
+            opacity: 0.9;
+        }
+        .navbar-header-v3 {
+            .navbar {
+                min-height: 35px;
+            }
+            text-align: center;
+            background: rgba(6, 6, 6, 0.47);
+            .navbar-header {
+                display: none;
+            }
+            .navbar-right {
+                float: initial !important;
+                display: inline-block;
+                vertical-align: middle;
+                ul {
+                    li {
+                        a {
+                            padding: 10px 25px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .header-top {
+            margin-top: -90px;
+            border: none;
+            &.header-top-v3 {
+                padding-bottom: 0;
+                .logo-v3 {
+                    margin-top: 55px;
+                    img {
+                        margin: 0;
+                        width: 150px;
+                    }
+                }
+            }
+        }
+    }
+    /* END/HEADER */
+    /* SECTION-SLIDER  */
+    .section-slider {
+        .item {
+            .carousel-caption {
+                h1 {
+                    &.v2 {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+    }
+    /* END /SECTION-SLIDER*/
+}
+
+@media all and (min-width: 1920px) {
+    /* SECTION-SLIDER  */
+    .section-slider {
+        .item {
+            .carousel-caption {
+                .v2 {
+                    font-size: 72px !important;
+                    ;
+                }
+                h1 {
+                    font-size: 85px;
+                }
+                p {
+                    font-size: 26px;
+                    &.p-v2 {
+                        &:after {
+                            right: 23%;
+                        }
+                        &:before {
+                            left: 23%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* END /SECTION-SLIDER*/
+    /* MAP */
+    .section-map-v4 {
+        iframe {
+            height: 685px;
+        }
+    }
+    /* END/MAP */
+}

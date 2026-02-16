@@ -1,0 +1,534 @@
+// 4.2 Table
+
+@media (min-width: 768px)and(max-width: 991px) {
+    /* FOOTER */
+    .footer-sky {
+        &.footer-sky-v4 {
+            .footer-bottom {
+                line-height: 35px !important;
+            }
+        }
+        .footer-top {
+            &.footer-top-v3 {
+                padding-bottom: 50px;
+                .bg-v3 {
+                    padding: 25px 60px;
+                }
+            }
+            .textbox {
+                text-align: center;
+                .form-inline {
+                    .form-group {
+                        .input-group {
+                            width: 450px;
+                        }
+                    }
+                }
+            }
+            .icon-email img {
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            padding: 25px 0px;
+            .footer-icon-l {
+                text-align: center;
+                margin-top: 30px;
+                .fa {
+                    line-height: 0px;
+                    padding: 0px 18px;
+                }
+            }
+        }
+        .footer-bottom {
+            padding-top: 10px;
+            .no-padding {
+                line-height: 27px;
+            }
+            .payments {
+                text-align: center;
+                padding-bottom: 13px;
+                ul {
+                    li {
+                        padding: 0px 9px;
+                    }
+                }
+            }
+        }
+        .footer-mid {
+            .padding-footer-mid {
+                padding: 15px 0px 25px 0px;
+                .list-content {
+                    text-align: center;
+                    margin-top: 35px;
+                    margin-bottom: 10px;
+                    img{
+                            max-width: 170px;
+                             vertical-align: middle;
+                    }
+                    ul {
+                        li {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* END/FOOTER*/
+    .section-map-v4 {
+        iframe {
+            height: 40rem;
+        }
+    }
+    /* SECTION-SLIDER  */
+    .section-slider {
+        .check-avail {
+            .date-title {
+                height: 85px;
+                label {
+                    font-size: 13px;
+                }
+            }
+            .arrival,
+            .departure {
+                padding: 10px 5px 27px 15px !important;
+            }
+            .adults,
+            .children {
+                padding-top: 10px !important;
+                .btn-group {
+                    margin-top: -28px !important;
+                    .dropdown-menu {
+                        min-width: 82px !important;
+                        top: 100% !important;
+                        left: 0 !important;
+                    }
+                    .btn {
+                        width: 82px !important;
+                        font-size: 50px !important;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .find_btn {
+                .text-find {
+                    padding-top: 23px !important;
+                    font-size: 12px !important;
+                    letter-spacing: 2px !important;
+                }
+            }
+        }
+        .item {
+            img {
+                // height: 40em;
+            }
+            .carousel-caption {
+                transform: translate(-50%, -55%);
+                h1 {
+                    font-size: 44px;
+                    margin-bottom: 5px;
+                    &.v2 {}
+                }
+                p {
+                    font-size: 22px;
+                    letter-spacing: 3px;
+                    &.p-v2 {}
+                    .line-t {
+                        width: 40px;
+                    }
+                    .line-b {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .section-slider {
+        &.height-v {
+            .item {
+                img {
+                    width: 200%;
+                    max-width: 300%;
+                }
+            }
+        }
+    }
+    /* END/SECTION-SLIDER */
+    /* UOR  GALLERY */
+    .gallery-our {
+        .gallery {
+            margin: 0;
+        }
+    }
+    /* END/OUR GALLERY*/
+    /* NEWS */
+    .news {
+        padding-top: 0px;
+        padding-bottom: 75px;
+        .text {
+            a {
+                font-size: 18px !important;
+            }
+        }
+    }
+    /* END/NEWS*/
+    /* BEST */
+    .best {
+        margin-bottom: 0px;
+        .sky-h6 {
+            font-size: 12px;
+        }
+    }
+    /* END/BEST*/
+    /*ABOUT */
+    .about {
+        &.about-v4 {
+            .about-centent {
+                p {
+                    text-align: center;
+                }
+            }
+        }
+        &.about-v2 {
+            margin-bottom: 75px;
+            .about-img {
+                margin-top: 0;
+                text-align: center;
+                left: initial;
+                right: initial;
+                .img-1 {
+                    width: 100%;
+                    img {
+                        display: inline-block;
+                        width: 100%;
+                    }
+                    .img-2 {
+                        display: none;
+                    }
+                }
+            }
+        }
+        margin-bottom: 5em;
+        .about-img {
+            margin-top: 125px;
+            float: none;
+            .img-1 {
+                float: right;
+                width: 82%;
+                .img-2 {
+                    top: 50%;
+                    left: -22%;
+                    width: 70%;
+                }
+                .img-3 {
+                    top: 84%;
+                    left: 27%;
+                    width: 50%
+                }
+            }
+        }
+        .about-centent {
+            p {
+                padding: 0;
+                text-align: justify;
+            }
+        }
+    }
+    /* END / ABOUT */
+    /*ROOMS */
+    .rooms {
+        &.rooms-v4 {
+            .wrap-rooms {
+                .wrap-box-v4 {
+                    .rooms-content {}
+                    .content {
+                        .bottom-room {
+                            padding: 23px 5px 25px 5px;
+                            ul {
+                                li {
+                                    padding: 7px 0px 7px 20px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        padding-top: 25px;
+        .rooms-p {
+            width: 75%;
+        }
+    }
+    /* END / ROOMS */
+    .events {
+        margin-bottom: 40px;
+        &.events-v3 {
+            .events-content {
+                bottom: -74%;
+                p {
+                    margin: 0;
+                    font-size: 12px;
+                }
+                h3 {
+                    margin: 0;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    /*TESTIMONIALS */
+    .testimonials {
+        &.testimonials-v2 {
+            .testimonials-content {
+                top: 25% !important;
+                .content-testimonials {
+                    p {
+                        margin-bottom: 19% !important;
+                    }
+                }
+            }
+        }
+        .testimonials-h {
+            .testimonials-content {
+                .testimonials-p {
+                    padding: 0;
+                }
+            }
+        }
+    }
+    /* END / TESTIMONIALS */
+    /* NAV-HEADER */
+    .header-sky {
+        &.header-top-sky {
+            .menu-header {
+                height: 80px !important;
+            }
+        }
+        .navbar {
+            .navbar-header {
+                .navbar-brand {
+                    img {
+                        width: 150px;
+                    }
+                }
+            }
+            .navbar-nav {
+                li {
+                    padding: 30px 10px;
+                    a {
+                        font-size: 10px;
+                        .caret {
+                            border-top: 3px dashed;
+                            border-top: 3px solid \9;
+                            border-right: 3px solid transparent;
+                            border-left: 3px solid transparent;
+                        }
+                    }
+                    .dropdown-menu {
+                        min-width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    /* END / NAV-HEADER */
+    .body-room-1 {
+        .room-wrap-1 {
+            .content {
+                ul {
+                    li {
+                        width: calc(50% - -50%) !important;
+                    }
+                }
+            }
+        }
+    }
+    .body-room-2 {
+        .wrap-room2 {
+            .img,
+            .img1 {
+                &:before {
+                    right: 7%;
+                    width: 86%;
+                    bottom: 0;
+                    height: 10%;
+                    top: auto;
+                }
+            }
+            .text {
+                padding-left: 80px;
+                padding-right: 80px;
+                padding-top: 0px;
+                margin-top: -27px;
+                .h2-rooms {}
+                p {}
+                .h5-room {}
+            }
+        }
+    }
+    .body-room-3 {
+        .wrap-room-3 {
+            .wrap-item {
+                .text-room-3 {
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    .img1,
+                    .img2 {
+                        display: none;
+                    }
+                    .text {
+                        width: auto;
+                        .line {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .body-room-4 {
+        .wrap-room-4 {
+            .wrap-item {
+                .text-room-4 {
+                    margin-left: auto;
+                    &.room-right {
+                        margin-right: auto;
+                    }
+                    .text {
+                        padding: 0;
+                    }
+                    .img1 {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .body-room-5 {
+        .wrap-room-5 {
+            .wrap-item {
+                .text-room-5 {
+                    bottom: 10px;
+                    left: 30px;
+                    .h2-rooms {
+                        font-size: 20px;
+                    }
+                    .h5-room {
+                        font-size: 13px;
+                    }
+                }
+                .text-hover {
+                    .text {
+                        padding: 0px 30px;
+                        padding-bottom: 11px;
+                        .h2-rooms {
+                            font-size: 16px;
+                        }
+                        .h5-room {
+                            font-size: 10px;
+                            margin-bottom: 11px;
+                        }
+                        p {
+                            font-size: 10px;
+                        }
+                        .view-dateails {
+                            margin-top: 0;
+                            width: 80px;
+                            height: 25px;
+                            font-size: 8px;
+                            line-height: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .check-out {
+        .col-lg-offset-1 {
+            margin-left: auto;
+        }
+        .col-lg-5 {
+            width: auto;
+        }
+    }
+    .page-v3 {
+        .content {
+            .wrap {
+                #timer {
+                    #hours {
+                        &:before,
+                        &:after {
+                            left: -20% !important;
+                        }
+                    }
+                    #minutes {
+                        &:before,
+                        &:after {
+                            left: -15% !important;
+                        }
+                    }
+                    #seconds {
+                        &:before,
+                        &:after {
+                            left: -35% !important;
+                        }
+                    }
+                    .padding {
+                        padding-right: 70px !important;
+                    }
+                }
+            }
+        }
+    }
+    .body-restaurant-3 {
+        .reservation {
+            .reservation_form {
+                .date {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .section-event-restaurant {
+        .event-restaurant {
+            .event-restaurant_header {
+                margin-top: -20px;
+                text-align: center;
+                margin-bottom: 50px;
+                padding-right: 0px;
+            }
+        }
+    }
+    .section-blog {
+        .blog {
+            .sidebar {
+                margin-right: 0px;
+            }
+        }
+    }
+    .section-about {
+        .wrap-about {
+            .about-item {
+                .no-padding-right {
+                    padding-right: 15px;
+                    .text {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .no-padding-left {
+                    padding-left: 15px;
+                    .text {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+    .section-team {
+        padding-bottom: 80px;
+    }
+}
+
+
+/* End-min-width:768px */

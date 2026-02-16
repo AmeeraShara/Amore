@@ -1,0 +1,157 @@
+//1.2 Normalize
+
+body {
+    color: #232323;
+    font-family: $font-family-Poppins;
+    font-size: $font-size-base;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400; 
+    line-height: 1.6; 
+}
+
+.sky-h1{
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.sky-h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+.sky-h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-top: 15px;
+}
+
+.sky-h4 {
+    color: #232323;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.sky-h5 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.sky-h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #232323;
+    font-family: 'Poppins', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.sky-p {
+    font-size: 14px;
+    color: #FFF;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.no-padding {
+    padding: 0;
+}
+.no-padding-left{
+    padding-left:0; 
+}
+.no-padding-right{
+    padding-right: 0; 
+}
+.testimonials-pp{
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.line{
+    background: $color-hover;
+}
+
+.btn-room{
+    color: #FFF ;
+    font-size: 12px ;
+    height: 38px ;
+    background: $color-hover ;
+    line-height: 24px;
+    border-radius: 0px;
+    font-weight: 600;
+     box-shadow: none;
+    &:hover{
+        border: 2px solid $color-hover ;
+        background: transparent;
+        color: $color-hover ; 
+    }
+}
+.h2-rooms{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #333 ;
+}
+.h5-room{
+    font-size: 14px ;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 600; 
+    color: #333 ;
+    text-transform: uppercase;
+}
+.heading{
+    font-weight:700;
+    color: $color-black;
+    font-family: $font-family-Poppins;   
+    margin-bottom: 13px;
+}
+.time {
+    color: #898989;
+    margin-top: -8px;
+    display: block;
+}
+
+input,textarea,.form-control,button,.btn{
+    outline:none;
+}
+
+.line-v2{
+    margin: auto;
+    height: 2px;
+    background: #8e7037;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none ;
+    &:hover,&:focus{
+        text-decoration: none ;
+    }
+}
+@keyframes myAnimation {
+    from {right: 50px;}
+    to {right: 0px;}
+}
+
+/* Firefox */
+@-moz-keyframes myAnimation {
+    from {right: 50px;}
+    to {right: 0px;}
+}
+
+/* Chrome */
+@-webkit-keyframes myAnimation {
+    from {right: 50px;}
+    to {right: 0px;}
+}
+
+/* Opera */
+@-o-keyframes myAnimation {
+    from {right: 50px;}
+    to {right: 0px;}
+}

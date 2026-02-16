@@ -1,0 +1,252 @@
+//2.3 Footer
+//================ FOOTER================//
+.footer-sky {
+    &.footer-sky-v4 {
+        padding-top: 45px;
+        background: url("../images/Home-4/footer.jpg") no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        .footer-top {
+            background: 0;
+            h2 {
+                font-weight: 700;
+                color: #FFF;
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                color: #FFF;
+            }
+        }
+        .icon-email {
+            display: inline-block;
+        }
+        .footer-bottom {
+            .footer-icon {
+                a {
+                    padding: 0px 17px;
+                    color: #FFF;
+                    font-size: 18px;
+                    &:hover {
+                        color: $color-hover;
+                    }
+                }
+            }
+            .footer-bottom-l {
+                color: #ebebeb;
+                font-size: 13px;
+                font-weight: 300;
+                a {
+                    font-weight: 400;
+                    color: #8E7037;
+                    &:hover{
+                       color: #8E7037;
+                   }
+               }
+           }
+       }
+       .textbox {
+        margin-bottom: 50px;
+        margin-top: 45px;
+        .input-group {
+            width: 570px !important;
+            border: 2px solid white;
+            .form-control {
+                background: transparent !important;
+            }
+            .btn {
+                background: transparent !important;
+                .ion-android-send {
+                    color: #FFF !important;
+                    border-left: 1px solid #FFF !important;
+                }
+            }
+        }
+    }
+}
+.footer-top {
+    &.footer-top-v3 {
+        background: 0;
+        padding-bottom: 100px;
+        .bg-v3 {
+            background: url("../images/Home-3/news.jpg") no-repeat;
+            padding: 43px 60px;
+            background-size: cover;
+            background-position: center center;
+            .form-control {
+                background: rgba(212, 206, 206, 0.31) !important;
+                &::placeholder {
+                    color: #FFF;
+                }
+            }
+            .btn {
+                background: transparent !important;
+                .ion-android-send {
+                    border-left: 1px solid #747d86 !important;
+                    color: #FFF !important;
+                }
+            }
+        }
+    }
+    .textbox {
+        .form-inline {
+            margin-top: 2px;
+            .form-group {
+                .input-group {
+                    width: 450px;
+                    .form-control {
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #ffffff;
+                        font-family: 'Poppins', sans-serif;
+                        background: #3E3E3E;
+                        border: none;
+                        -webkit-border-radius: 0px;
+                        border-radius: 0px;
+                        padding: 6px 25px;
+                        height: 60px;
+                        &::placeholder {
+                            color: #FFF;
+                        }
+                        &:focus {
+                            border: none;
+                            -webkit-box-shadow: none;
+                            box-shadow: none;
+                        }
+                    }
+                    .btn {
+                        width: 80px;
+                        height: 60px;
+                        border: none;
+                        -webkit-border-radius: 0px;
+                        border-radius: 0px;
+                        background: #3E3E3E;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        position: absolute;
+                        right: 10px;
+                        z-index: 99;
+                        &:hover {
+                            .ion-android-send {
+                                color: #ffffff;
+                            }
+                        }
+                        .ion-android-send {
+                            color: #B2B2B2;
+                            font-size: 30px;
+                            line-height: 0px;
+                            border-left: 1px solid #4c4c4c;
+                            padding-left: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    padding: 32px 0; 
+    margin: -2px 0; 
+    background:#2e2e2e;
+    .footer-icon-l {
+        .fa {
+            line-height: 64px;
+            color: #ffffff;
+            font-size: 20px;
+            padding-left: 43px;
+            &:hover {
+                color: #8e7037;
+            }
+        }
+    }
+}
+.footer-bottom {
+    &.bottom-v3 {
+        line-height: 85px;
+        border-top: 1px solid rgba(255, 255, 255, 0.30);
+        color: #ebebeb;
+        font-weight: 300;
+        font-size: 13px ; 
+        a{
+            color: #8E7037 ;
+        }
+    }
+    .no-padding {
+        padding: 0;
+    }
+    border-top: 1px solid #2e2e2e;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ebebeb;
+    line-height: 100px;
+    a {
+        font-weight: 500;
+        color: #8E7037;
+        &:hover {
+            color: #8E7037;
+        }
+    }
+    .payments {
+        ul {
+            padding: 0;
+            margin: 0;
+            li {
+                list-style: none;
+                display: inline-block;
+                padding-left: 25px;
+                a {}
+            }
+        }
+    }
+}
+.footer-mid {
+    &.footer-v3 {
+        background: url("../images/Home-3/footer.jpg") no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        .padding-footer-mid {
+            padding: 95px 0px 67px 0px;
+            @media(max-width:$screen-sm-max){
+                    padding: 20px 0px 30px 0px;
+            }
+        }
+    }
+    background:#232323;
+    .padding-footer-mid {
+        padding: 85px 0px 30px 0px;
+        .list-content {
+            &.content-v3 {
+                ul {
+                    li {
+                        margin-bottom: 12px;
+                        a {
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+            ul {
+                padding: 0;
+                li {
+                    list-style: none;
+                    margin-bottom: 16px;
+                    a {
+                        color: #ebebeb;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: 'Poppins', sans-serif;
+                        &:hover {
+                            color: #8e7037;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+//================ END FOOTER================//
