@@ -1,4 +1,4 @@
-<?php include '../../templates/admin/admin_header.php'; ?>
+<?php include 'templates/admin/admin_header.php'; ?>
 <link rel="stylesheet" type="text/css" href="css/admin/datatables.css" />
 <link rel="stylesheet" href="css/fullcalendar@5.11.3.css">
 
@@ -37,7 +37,7 @@
     }
     tbody tr:hover { cursor:pointer; }
 </style>
-<?php include '../../templates/admin/admin_menu.php'; ?>
+<?php include 'templates/admin/admin_menu.php'; ?>
 
     <div class="">
         <div class="view_profile_wrapper_top float_left">
