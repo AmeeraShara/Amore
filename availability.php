@@ -79,7 +79,7 @@
         }
 
         if(sizeof($booked_room_ids) > 0){
-            $implode_ids = implode($booked_room_ids,",");
+            $implode_ids = implode(",",$booked_room_ids);
             $query1 = "SELECT  `id`,`name`,`description`,`header_bg_image`,`price`,`adults`,`children`,`bed`,`view`,`size` FROM `rooms` WHERE `id` NOT IN($implode_ids) AND `adults` >= '$adults' AND `children` >= '$children'";
         }else{
             $query1 = "SELECT  `id`,`name`,`description`,`header_bg_image`,`price`,`adults`,`children`,`bed`,`view`,`size` FROM `rooms` WHERE `adults` >= '$adults' AND `children` >= '$children'";

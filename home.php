@@ -30,50 +30,67 @@ while ($row = mysqli_fetch_array($result)) {
         <div class="wrap-rooms">
             <div class="row">
                 <div id="rooms" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <?php
-                        if (sizeof($room_id) != 0) {
-                            for ($i = 0; $i < sizeof($room_id); $i++) {
-                                $image = '';
-                                if ($room_home_image[$i] != '')
-                                    $image = '<img src="' . ($room_home_image[$i]) . '" class="img-responsive" alt="' . ($room_name[$i]) . '" title="' . ($room_name[$i]) . '">';
-                                else
-                                    $image = '<img src="images/rooms/room.jpg" class="img-responsive" alt="Default room image" title="Default room image">';
-                                print '
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
-                                        <div class="wrap-box wrap-box-v4">
-                                            <div class="box-img">' . $image . '</div>
-                                            <div class="rooms-content">
+                    <?php
+                    if (!empty($room_id)) {
+                        for ($i = 0; $i < sizeof($room_id); $i++) {
+
+                            // -------------------------------
+                            // 1️⃣ Replace single image with multiple images
+                            // -------------------------------
+                            $images = glob("images/rooms/room" . $room_id[$i] . "-*.*"); // e.g., room1-1.jpg, room1-2.jpg
+
+                            if (empty($images)) {
+                                $default_image = "images/rooms/room" . $room_id[$i] . "-default.jpg";
+                                if (file_exists($default_image)) {
+                                    $images[] = $default_image;
+                                } else {
+                                    $images[] = "images/rooms/room.jpg"; // global default
+                                }
+                            }
+
+                            $image = '';
+                            foreach ($images as $img) {
+                                $image .= '<img src="' . $img . '" class="img-responsive" alt="' . $room_name[$i] . '" title="' . $room_name[$i] . '">';
+                            }
+                            // -------------------------------
+                            // End of change
+                            // -------------------------------
+
+                            // Existing HTML structure remains the same
+                            print '
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                                <div class="wrap-box wrap-box-v4">
+                                    <div class="box-img">' . $image . '</div>
+                                    <div class="rooms-content">
+                                        <h4 class="sky-h4">' . ($room_name[$i]) . '</h4>
+                                        <p class="price">$' . ($room_price[$i]) . ' / Per Night</p>
+                                    </div>
+                                    <div class="content">
+                                        <div class="wrap-content">
+                                            <div class="rooms-content1">
                                                 <h4 class="sky-h4">' . ($room_name[$i]) . '</h4>
                                                 <p class="price">$' . ($room_price[$i]) . ' / Per Night</p>
                                             </div>
-                                            <div class="content">
-                                                <div class="wrap-content">
-                                                    <div class="rooms-content1">
-                                                        <h4 class="sky-h4">' . ($room_name[$i]) . '</h4>
-                                                        <p class="price">$' . ($room_price[$i]) . ' / Per Night</p>
-                                                    </div>
-                                                    <p>' . ($room_home_description[$i]) . '</p>
-                                                    <div class="bottom-room">
-                                                        <ul>
-                                                            <li><img src="images/home/v2-icon.png" class="img-responsive" alt="Image">' . ($room_max_peope[$i]) . ' Person(s)</li>
-                                                            <li><img src="images/home/v2-icon-1.png" class="img-responsive" alt="Image">' . ($room_size[$i]) . '</li>
-                                                            <li><img src="images/home/v2-icon-2.png" class="img-responsive" alt="Image">' . ($room_view[$i]) . '</li>
-                                                            <li><img src="images/home/v2-icon-3.png" class="img-responsive" alt="Image">' . ($room_bed[$i]) . '</li>
-                                                        </ul>
-                                                    </div>
-                                                    <a href="room.php?id=' . ($room_id[$i]) . '&case=book_now" class="btn btn-room">VIEW DETAIL</a>
-                                                </div>
+                                            <p>' . ($room_home_description[$i]) . '</p>
+                                            <div class="bottom-room">
+                                                <ul>
+                                                    <li><img src="images/home/v2-icon.png" class="img-responsive" alt="Image">' . ($room_max_peope[$i]) . ' Person(s)</li>
+                                                    <li><img src="images/home/v2-icon-1.png" class="img-responsive" alt="Image">' . ($room_size[$i]) . '</li>
+                                                    <li><img src="images/home/v2-icon-2.png" class="img-responsive" alt="Image">' . ($room_view[$i]) . '</li>
+                                                    <li><img src="images/home/v2-icon-3.png" class="img-responsive" alt="Image">' . ($room_bed[$i]) . '</li>
+                                                </ul>
                                             </div>
+                                            <a href="room.php?id=' . ($room_id[$i]) . '&case=book_now" class="btn btn-room">VIEW DETAIL</a>
                                         </div>
                                     </div>
-                                    ';
-                            }
-                        } else {
-                            print '<h3 class="text-center">Rooms details are coming soon.</h3>';
+                                </div>
+                            </div>
+                            ';
                         }
-                        ?>
-                    </div>
+                    } else {
+                        print '<h3 class="text-center">Rooms details are coming soon.</h3>';
+                    }
+                    ?>
                 </div>
             </div>
         </div>
@@ -187,8 +204,11 @@ while ($row = mysqli_fetch_array($result)) {
         <div id="events-v2" class="owl-carousel owl-theme">
             <div class="item ">
                 <div class="events-item">
-                    <div class="events-img"><img src="images/packages/package.jpg" class="img-responsive" alt="Image">
-                    </div>
+        <div class="events-img">
+            <img src="images/packages/wed.jpg" 
+                 alt="Image" 
+                 style="width:100%; height:465px; object-fit:cover; display:block;">
+        </div>
                     <div class="events-content">
                         <a href="#" title="">
                             <p class="sky-p">WEDDING PACKAGES</p>
@@ -197,22 +217,28 @@ while ($row = mysqli_fetch_array($result)) {
                     </div>
                 </div>
             </div>
+<div class="item">
+    <div class="events-item" style="border:1px solid #ddd;  overflow:hidden; transition: transform 0.3s ease;">
+        <div class="events-img">
+            <img src="images/packages/tortoise.jpeg" 
+                 alt="Image" 
+                 style="width:100%; height:465px; object-fit:cover; display:block;">
+        </div>
+        <div class="events-content" >
+            <a href="#" title="" style="text-decoration:none;">
+                <p class="sky-p" >TOUR PACKAGES</p>
+                <h3 class="sky-h3" >Tour | Sightseeing</h3>
+            </a>
+        </div>
+    </div>
+</div>
             <div class="item">
                 <div class="events-item">
-                    <div class="events-img"><img src="images/packages/package.jpg" class="img-responsive" alt="Image">
-                    </div>
-                    <div class="events-content">
-                        <a href="#" title="">
-                            <p class="sky-p">TOUR PACKAGES</p>
-                            <h3 class="sky-h3"> Tour | Sightseeing</h3>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="events-item">
-                    <div class="events-img"><img src="images/packages/package.jpg" class="img-responsive" alt="Image">
-                    </div>
+        <div class="events-img">
+            <img src="images/packages/divings.jpg" 
+                 alt="Image" 
+                 style="width:100%; height:465px; object-fit:cover; display:block;">
+        </div>
                     <div class="events-content">
                         <a href="#" title="">
                             <p class="sky-p">BEACH SPORT PACKAGES</p>
@@ -223,8 +249,11 @@ while ($row = mysqli_fetch_array($result)) {
             </div>
             <div class="item">
                 <div class="events-item">
-                    <div class="events-img"><img src="images/packages/package.jpg" class="img-responsive" alt="Image">
-                    </div>
+        <div class="events-img">
+            <img src="images/packages/kids surfing.jpg" 
+                 alt="Image" 
+                 style="width:100%; height:465px; object-fit:cover; display:block;">
+        </div>
                     <div class="events-content">
                         <a href="#" title="">
                             <p class="sky-p">KIDS ACTIVITY PACKAGES</p>

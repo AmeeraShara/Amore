@@ -2,18 +2,18 @@
 <html lang="eng">
     <head>
         <meta charset="utf-8" />
-        <title><?php echo getCompanyName(); ?> - Login</title>
+        <title><?php  ?> - Login</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta name="author" content="" />
         <meta name="MobileOptimized" content="320" />
         <!--Template style -->
-        <link rel="stylesheet" type="text/css" href="css/admin/animate.css" />
-        <link rel="stylesheet" type="text/css" href="css/admin/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/admin/fonts.css" />
-        <link rel="stylesheet" type="text/css" href="css/admin/flaticon.css" />
-        <link rel="stylesheet" type="text/css" href="css/admin/font-awesome.css" />
-        <link rel="stylesheet" type="text/css" href="css/admin/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/admin/responsive.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/admin/animate.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/admin/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/admin/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/admin/flaticon.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/admin/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/admin/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../../css/admin/responsive.css" />
         <!--favicon-->
         <!-- <link rel="shortcut icon" type="image/png" href="images/favicon.png" /> -->
     </head>

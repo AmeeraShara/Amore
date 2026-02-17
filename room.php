@@ -464,7 +464,7 @@ include_once('templates/footer.php');
             dayMaxEvents: true, // allow "more" link when too many events
             events: [
                 <?php for ($i = 0; $i < count($booked_dates); $i++) { ?>
-                                                                                                    {
+                ,                                                                                    {
                         display: 'background',
                         start: '<?php echo $booked_dates[$i]; ?>',
                         end: '<?php echo $booked_dates[$i]; ?>',

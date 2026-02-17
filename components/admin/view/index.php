@@ -1,5 +1,5 @@
-<?php include 'templates/admin/admin_header.php'; ?>
-<link rel="stylesheet" type="text/css" href="css/admin/datatables.css" />
+<?php include '../../../templates/admin/admin_header.php'; ?>
+<link rel="stylesheet" type="text/css" href="../../css/admin/datatables.css" />
 <link rel="stylesheet" href="css/fullcalendar@5.11.3.css">
 
 <style>
@@ -37,7 +37,7 @@
     }
     tbody tr:hover { cursor:pointer; }
 </style>
-<?php include 'templates/admin/admin_menu.php'; ?>
+<?php include '../../../templates/admin/admin_menu.php'; ?>
 
     <div class="">
         <div class="view_profile_wrapper_top float_left">
@@ -304,18 +304,17 @@
             <?php
                 for ($i=0; $i <count($booked_dates); $i++) {
                     if($booked_count[$i] > 0){
-            ?>
-                {
+            ?>,
+                  {
                     title : '<?php echo $booked_portion[$i]; ?>',
                     display : 'background',
                     start: '<?php echo $booked_dates[$i]; ?>',
                     end: '<?php echo $booked_dates[$i]; ?>',
-                    <?php if($full_booked_date[$i] == 1){ ?>
+                    <?php if($full_booked_date[$i] == 1){ ?>,
                         color: fullFilledColor,
-                    <?php } else { ?>
+                    <?php } else { ?>,
                         color: partiallyFilledColor,
-                    <?php } ?>
-                },
+                    <?php } ?>}
             <?php }} ?>
             ],
             dateClick: function (info) {
