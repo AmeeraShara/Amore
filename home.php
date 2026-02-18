@@ -188,66 +188,83 @@ $image = '<img src="' . ($room_home_image[$i]) . '"
         <h2 class="events-title text-shadow-3x">Our Packages</h2>
         <div class="line"></div>
         <div id="events-v2" class="owl-carousel owl-theme">
-            <div class="item ">
+            
+            <!-- Wedding Package -->
+            <div class="item">
                 <div class="events-item">
-        <div class="events-img">
-            <img src="images/packages/wed.jpg" 
-                 alt="Image" 
-                 style="width:100%; height:465px; object-fit:cover; display:block;">
-        </div>
+                    <div class="events-img">
+                        <a href="contact.php?package=wedding">
+                            <img src="images/packages/wed.jpg" 
+                                 alt="Wedding Package" 
+                                 style="width:100%; height:465px; object-fit:cover; display:block;">
+                        </a>
+                    </div>
                     <div class="events-content">
-                        <a href="#" title="">
+                        <a href="contact.php?package=wedding" style="text-decoration:none;">
                             <p class="sky-p">WEDDING PACKAGES</p>
                             <h3 class="sky-h3">Wedding Day</h3>
                         </a>
                     </div>
                 </div>
             </div>
-<div class="item">
-    <div class="events-item" style="border:1px solid #ddd;  overflow:hidden; transition: transform 0.3s ease;">
-        <div class="events-img">
-            <img src="images/packages/tortoise.jpeg" 
-                 alt="Image" 
-                 style="width:100%; height:465px; object-fit:cover; display:block;">
-        </div>
-        <div class="events-content" >
-            <a href="#" title="" style="text-decoration:none;">
-                <p class="sky-p" >TOUR PACKAGES</p>
-                <h3 class="sky-h3" >Tour | Sightseeing</h3>
-            </a>
-        </div>
-    </div>
-</div>
+
+            <!-- Tour Package -->
+            <div class="item">
+                <div class="events-item" style="border:1px solid #ddd; overflow:hidden; transition: transform 0.3s ease;">
+                    <div class="events-img">
+                        <a href="contact.php?package=tour">
+                            <img src="images/packages/tortoise.jpeg" 
+                                 alt="Tour Package" 
+                                 style="width:100%; height:465px; object-fit:cover; display:block;">
+                        </a>
+                    </div>
+                    <div class="events-content">
+                        <a href="contact.php?package=tour" style="text-decoration:none;">
+                            <p class="sky-p">TOUR PACKAGES</p>
+                            <h3 class="sky-h3">Tour | Sightseeing</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beach Sport Package -->
             <div class="item">
                 <div class="events-item">
-        <div class="events-img">
-            <img src="images/packages/divings.jpg" 
-                 alt="Image" 
-                 style="width:100%; height:465px; object-fit:cover; display:block;">
-        </div>
+                    <div class="events-img">
+                        <a href="contact.php?package=beach">
+                            <img src="images/packages/divings.jpg" 
+                                 alt="Beach Sport Package" 
+                                 style="width:100%; height:465px; object-fit:cover; display:block;">
+                        </a>
+                    </div>
                     <div class="events-content">
-                        <a href="#" title="">
+                        <a href="contact.php?package=beach" style="text-decoration:none;">
                             <p class="sky-p">BEACH SPORT PACKAGES</p>
-                            <h3 class="sky-h3"> Surfing | Diving</h3>
+                            <h3 class="sky-h3">Surfing | Diving</h3>
                         </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Kids Activity Package -->
             <div class="item">
                 <div class="events-item">
-        <div class="events-img">
-            <img src="images/packages/kids surfing.jpg" 
-                 alt="Image" 
-                 style="width:100%; height:465px; object-fit:cover; display:block;">
-        </div>
+                    <div class="events-img">
+                        <a href="contact.php?package=kids">
+                            <img src="images/packages/kids surfing.jpg" 
+                                 alt="Kids Activity Package" 
+                                 style="width:100%; height:465px; object-fit:cover; display:block;">
+                        </a>
+                    </div>
                     <div class="events-content">
-                        <a href="#" title="">
+                        <a href="contact.php?package=kids" style="text-decoration:none;">
                             <p class="sky-p">KIDS ACTIVITY PACKAGES</p>
-                            <h3 class="sky-h3"> Surfing | Diving</h3>
+                            <h3 class="sky-h3">Surfing | Diving</h3>
                         </a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
