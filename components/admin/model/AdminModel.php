@@ -105,7 +105,7 @@
 
         // GET COUNT OF EACH DAY WHICH HAS ALL ROOM ID IN PARTICULAR DATE
         $datesAr = getBetweenDates($from, $to); // get all dates between start and end date as an array
-        $implode_room_ids = implode($room_ids,","); // make room id string to query ("1,2,3")
+        $implode_room_ids = implode(",", $room_ids); // make room id string to query ("1,2,3")
         for($i=0; $i<sizeof($datesAr); $i++){ // loop through range of dates
             $date = $datesAr[$i];
             $booked_room_count = 0;
