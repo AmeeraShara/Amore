@@ -64,8 +64,12 @@ while($row = mysqli_fetch_assoc($result)){
                 // 5️⃣ Build image carousel
                 $carousel = '<div class="room-carousel">';
                 foreach($room['images'] as $img){
-                    $carousel .= '<a href="room.php?id='.$room['id'].'"><img src="'.$img.'" alt="'.$room['name'].'" title="'.$room['name'].'"></a>';
-                }
+$carousel .= '<a href="room.php?id='.$room['id'].'">
+                <img src="'.$img.'" 
+                     alt="'.$room['name'].'" 
+                     title="'.$room['name'].'"
+                     style="width:100%; height:470px; object-fit:cover; display:block;">
+              </a>';                }
                 $carousel .= '</div>';
 
                 // 6️⃣ Output room HTML
