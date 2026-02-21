@@ -116,7 +116,7 @@
                 <h2 class="h2-rooms">GALLERY Restaurant</h2>
                 <ul class="nav nav-tabs text-uppercase">
                     <li class="active"><a data-toggle="tab" href="#all">ALL</a></li>
-                    <li><a data-toggle="tab" href="#dinner">DINNER</a></li>
+                    <li><a data-toggle="tab" href="#breakfast">BREAKFAST</a></li>
                     <li><a data-toggle="tab" href="#lunch">LUNCH</a></li>
                     <li><a data-toggle="tab" href="#diner">DINER</a></li>
                     <li><a data-toggle="tab" href="#drink">DRINK</a></li>
@@ -129,11 +129,11 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantbreakfast.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main ">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/restaurant/resturantbreakfast1.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -141,7 +141,43 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantbreakfast1.jpg" class="img-responsive" alt="Product" title="images products">
+                                        </div>
+                                        <div class="gallery-box-main">
+                                            <div class="gallery-icon">
+                                                <a class="lightbox " href="images/restaurant/Resturantlunch.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                                    <div class="wrap-box">
+                                        <div class="box-img">
+                                            <img src="images/restaurant/Restaurantlunch.jpg" class="img-responsive" alt="Product" title="images products">
+                                        </div>
+                                        <div class="gallery-box-main">
+                                            <div class="gallery-icon">
+                                                <a class="lightbox " href="images/restaurant/resturantlunch1.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                                    <div class="wrap-box">
+                                        <div class="box-img">
+                                            <img src="images/restaurant/restaurantdinner.jpg" class="img-responsive" alt="Product" title="images products">
+                                        </div>
+                                        <div class="gallery-box-main">
+                                            <div class="gallery-icon">
+                                                <a class="lightbox " href="images/restaurant/resturantdinner.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                                    <div class="wrap-box">
+                                        <div class="box-img">
+                                            <img src="images/restaurant/restaurantlunch1.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -153,7 +189,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/lunch2.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -165,7 +201,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/drinks.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -177,7 +213,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/breakfast3.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -189,7 +225,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantdinner.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -201,7 +237,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantdinner1.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -213,11 +249,11 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/break.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/restaurant/resturantdinner.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -225,47 +261,11 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/dinner.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
-                                    <div class="wrap-box">
-                                        <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
-                                        </div>
-                                        <div class="gallery-box-main">
-                                            <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
-                                    <div class="wrap-box">
-                                        <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
-                                        </div>
-                                        <div class="gallery-box-main">
-                                            <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
-                                    <div class="wrap-box">
-                                        <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
-                                        </div>
-                                        <div class="gallery-box-main">
-                                            <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/restaurant/resturantdinner1.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -273,17 +273,17 @@
                             </div>
                         </div>
                     </div>
-                    <div id="dinner" class="tab-pane fade">
+                    <div id="breakfast" class="tab-pane fade">
                         <div class="product ">
                             <div class="row">
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantbreakfast1.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main " title>
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/restaurant/resturantbreakfast.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -291,7 +291,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantbreakfast.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -303,7 +303,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/break.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -315,7 +315,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/breakfast2.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -327,7 +327,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/breakfast3.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -339,7 +339,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/breakfast3.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -351,7 +351,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/breakfast2.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -363,7 +363,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantbreakfast.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -375,7 +375,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/break.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -393,7 +393,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/Restaurantlunch.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main " title>
                                             <div class="gallery-icon">
@@ -405,7 +405,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/lunch4.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -417,7 +417,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/lunch2.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -429,7 +429,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/dinner.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -441,7 +441,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/Restaurantlunch.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -453,7 +453,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantlunch1.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -465,7 +465,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/lunch5.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -477,7 +477,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantlunch1.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -495,7 +495,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/dinner.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main " title>
                                             <div class="gallery-icon">
@@ -507,7 +507,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantdinner1.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -519,7 +519,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/restaurantdinner.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -531,7 +531,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/dinner2.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -543,7 +543,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/dinner5.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -555,7 +555,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/break.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -567,7 +567,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/Restaurantlunch.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -579,7 +579,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/dinner3.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -591,7 +591,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/breakfast3.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -609,7 +609,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/drinkred.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main " title>
                                             <div class="gallery-icon">
@@ -621,7 +621,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/drinkyellow.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -633,7 +633,7 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/restaurant/drinkreds.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -643,6 +643,31 @@
                                     </div>
                                 </div>
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                                    <div class="wrap-box">
+                                        <div class="box-img">
+                                            <img src="images/restaurant/drinkblue.jpg" class="img-responsive" alt="Product" title="images products">
+                                        </div>
+                                        <div class="gallery-box-main">
+                                            <div class="gallery-icon">
+                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
+                                    <div class="wrap-box">
+                                        <div class="box-img">
+                                            <img src="images/restaurant/drinks.jpg" class="img-responsive" alt="Product" title="images products">
+                                        </div>
+                                        <div class="gallery-box-main">
+                                            <div class="gallery-icon">
+                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                              <!--  <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
                                             <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
@@ -669,30 +694,6 @@
                                 <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-49.jpg" class="img-responsive" alt="Product" title="images products">
-                                        </div>
-                                        <div class="gallery-box-main">
-                                            <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
-                                    <div class="wrap-box">
-                                        <div class="box-img">
-                                            <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
-                                        </div>
-                                        <div class="gallery-box-main">
-                                            <div class="gallery-icon">
-                                                <a class="lightbox " href="images/restaurant/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
-                                    <div class="wrap-box">
-                                        <div class="box-img">
                                             <img src="images/restaurant/Restaurants-48.jpg" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
@@ -713,7 +714,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
+
                             </div>
                         </div>
                     </div>

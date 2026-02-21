@@ -28,7 +28,7 @@ $(document).ready(function() {
     });
     /*end/menu-dropdow*/
     /*owlCarousel-header*/
-    $('#kandy').owlCarousel({
+    $('#turtle').owlCarousel({
         loop: true,
         nav: true,
         autoplay: true,
@@ -45,6 +45,79 @@ $(document).ready(function() {
             }
         }
     });
+        $('#vihara12').owlCarousel({
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 9000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+
+        $('#hikka12').owlCarousel({
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 9000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+
+        $('#mask12').owlCarousel({
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 9000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+    
+        $('#bawa12').owlCarousel({
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 9000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+
+
     $('#unawatuna').owlCarousel({
         loop: true,
         nav: true,
@@ -80,6 +153,24 @@ $(document).ready(function() {
         }
     });
     $('#index122').owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 9000,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    });
+        $('#madu-river').owlCarousel({
         loop: true,
         nav: true,
         margin: 30,

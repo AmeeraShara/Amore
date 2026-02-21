@@ -23,7 +23,7 @@ while ($row = mysqli_fetch_array($result)) {
 <!-- OUR-ROOMS -->
 <section class="rooms rooms-v2 rooms-v4">
     <div class="container">
-        <h2 class="title-room text-shadow-3x">Our Rooms</h2>
+        <h2 class="title-room text-shadow-3x"> Here Our Rooms</h2>
         <div class="outline"></div>
         <p class="rooms-p">Our Beautiful Bedrooms are more than just a place to lay your head down. They are also meant
             to serve as your home away from home. View our cozy accommodations and roomy suites.</p>
@@ -335,4 +335,5 @@ $image = '<img src="' . ($room_home_image[$i]) . '"
             }
         });
     }
+    
 </script>
