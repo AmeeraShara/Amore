@@ -28,6 +28,18 @@ $(document).ready(function() {
     });
     /*end/menu-dropdow*/
     /*owlCarousel-header*/
+
+    $('#index1').owlCarousel({
+    loop: true,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 2500,   
+    smartSpeed: 600,         
+    items: 1,
+    animateOut: 'fadeOut',   
+    animateIn: 'fadeIn',
+    autoplayHoverPause: false
+});
     $('#turtle').owlCarousel({
         loop: true,
         nav: true,

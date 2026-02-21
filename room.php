@@ -391,49 +391,79 @@ if ((isset($_GET['id'])) && ($_GET['id'] != '') && (preg_match('/^\d+$/', $_GET[
             </div>
         </div>
 
-        <!-- ANOTHER ACCOMMODATION -->
-        <div class="product-detail">
-            <h2 class="product-detail_title">Another accommodations</h2>
-            <div class="product-detail_content">
-                <div class="row">
-                    <?php
-                    if (isset($recommend_room_id)) {
-                        if (sizeof($recommend_room_id) != 0) {
-                            for ($i = 0; $i < sizeof($recommend_room_id); $i++) {
-                                $image = '';
-                                if ($recommend_room_image[$i] != '')
-                                    $image = '<img src="' . ($recommend_room_image[$i]) . '" class="img-responsive" alt="' . ($recommend_room_image[$i]) . '" title="' . ($recommend_room_image[$i]) . '">';
-                                else
-                                    $image = '<img src="images/rooms/room-overview-default-image.jpg" alt="Default room image" title="Default room image">';
-                                print '
-                                    <div class="col-sm-6 col-md-3 col-lg-3">
-                                        <div class="product-detail_item">
-                                            <div class="img">
-                                                <a href="room.php?id=' . ($recommend_room_id[$i]) . '">' . $image . '</a>
-                                            </div>
-                                            <div class="text">
-                                                <h2><a href="#">' . ($recommend_room_name[$i]) . '</a></h2>
-                                                <ul>
-                                                    <li><i class="fa fa-child" aria-hidden="true"></i> Max: ' . ($recommend_room_max_people[$i]) . ' Person(s)</li>
-                                                    <li><i class="fa fa-bed" aria-hidden="true"></i> Bed: ' . ($recommend_room_bed[$i]) . '</li>
-                                                    <li><i class="fa fa-eye" aria-hidden="true"></i> View: ' . ($recommend_room_view[$i]) . '</li>
-                                                </ul>
-                                                <a href="room.php?id=' . ($recommend_room_id[$i]) . '" class="btn btn-room">VIEW DETAIL</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ';
-                            }
-                        } else {
-                            print '<h2 class="text-center mt-4">Other room pages coming soon.</h2>';
-                        }
-                    }
-                    ?>
-                </div>
+<!-- ANOTHER ACCOMMODATION -->
+<div class="product-detail">
+    <h2 class="product-detail_title">Another accommodations</h2>
+    <div class="product-detail_content">
+        <div class="row">
+            <?php
+            if (isset($recommend_room_id)) {
+                if (sizeof($recommend_room_id) != 0) {
 
-            </div>
+                    for ($i = 0; $i < sizeof($recommend_room_id); $i++) {
+
+                        $display_image = '';
+
+                        $folder_images = glob("images/rooms/room" . $recommend_room_id[$i] . "-[0-9]*.*");
+
+                        if (!empty($folder_images)) {
+
+                            $display_image = $folder_images[0];
+
+                        } else {
+
+                            if ($recommend_room_image[$i] != '') {
+
+                                $display_image = $recommend_room_image[$i];
+
+                            } else {
+
+                                $default_image = "images/rooms/room" . $recommend_room_id[$i] . "-default.jpg";
+
+                                if (file_exists($default_image)) {
+                                    $display_image = $default_image;
+                                } else {
+                                    $display_image = "images/rooms/room-overview-default-image.jpg";
+                                }
+                            }
+                        }
+
+$image = '<img src="' . $display_image . '" 
+              class="img-responsive"
+              style="width:100%; height:220px; object-fit:cover;"
+              alt="' . ($recommend_room_name[$i]) . '" 
+              title="' . ($recommend_room_name[$i]) . '">';
+
+                        print '
+                            <div class="col-sm-6 col-md-3 col-lg-3">
+                                <div class="product-detail_item">
+                                    <div class="img">
+                                        <a href="room.php?id=' . ($recommend_room_id[$i]) . '">' . $image . '</a>
+                                    </div>
+                                    <div class="text">
+                                        <h2><a href="#">' . ($recommend_room_name[$i]) . '</a></h2>
+                                        <ul>
+                                            <li><i class="fa fa-child" aria-hidden="true"></i> Max: ' . ($recommend_room_max_people[$i]) . ' Person(s)</li>
+                                            <li><i class="fa fa-bed" aria-hidden="true"></i> Bed: ' . ($recommend_room_bed[$i]) . '</li>
+                                            <li><i class="fa fa-eye" aria-hidden="true"></i> View: ' . ($recommend_room_view[$i]) . '</li>
+                                        </ul>
+                                        <a href="room.php?id=' . ($recommend_room_id[$i]) . '" class="btn btn-room">VIEW DETAIL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        ';
+                    }
+
+                } else {
+                    print '<h2 class="text-center mt-4">Other room pages coming soon.</h2>';
+                }
+            }
+            ?>
         </div>
-        <!-- END / ANOTHER ACCOMMODATION -->
+    </div>
+</div>
+<!-- END / ANOTHER ACCOMMODATION -->
+
     </div>
 </section>
 <!-- END / SHOP DETAIL -->

@@ -1,51 +1,60 @@
     <!-- SLIDER -->
-    <section class="section-slider height-v">
-        <div id="index12" class="owl-carousel  owl-theme">
-            <div class="item">
-                <img alt="" src="images/slider/slider-1.jpg" class="img-responsive">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Hotel Amore</h1>
-                        <p><span class="line-t"></span>Hotels & Resorts <span class="line-b"></span></p>
-                    </div>
+
+
+<!-- SLIDER -->
+<section class="section-slider height-v" style="position: relative; height: 750px; overflow: hidden;">
+    <div id="index1" class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="images/slider/font.jpg" alt="" class="img-responsive"
+                 style="width: 100%; height: 740px; object-fit: cover; transform: scale(1); transition: transform 2s ease-in-out;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Hotel Amore</h1>
+                    <p><span class="line-t"></span>RELAX , DINE & REJUVENATE <span class="line-b"></span></p>
                 </div>
             </div>
-            <div class="item">
-                <img alt="" src="images/slider/slider-2.jpg" class="img-responsive">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Life Long Memory</h1>
-                        <p><span class="line-t"></span>Just a few seconds away<span class="line-b"></span></p>
-                    </div>
+        </div>
+        <div class="item">
+            <img src="images/slider/hotel.jpg" alt="" class="img-responsive"
+                 style="width: 100%; height: 740px; object-fit: cover; transform: scale(1); transition: transform 2s ease-in-out;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Elegant Lobby</h1>
+                    <p><span class="line-t"></span>WARM WELCOME<span class="line-b"></span></p>
                 </div>
             </div>
-            <div class="item">
-                <img alt="" src="images/slider/slider-3.jpg" class="img-responsive">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Uniquely Peaceful</h1>
-                        <p><span class="line-t"></span>Beautifuly restful<span class="line-b"></span></p>
-                    </div>
+        </div>
+        <div class="item">
+            <img src="images/slider/sea.jpg" alt="" class="img-responsive"
+                 style="width: 100%; height: 740px; object-fit: cover; transform: scale(1); transition: transform 2s ease-in-out;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Sea View</h1>
+                    <p><span class="line-t"></span>BREATHTAKING OCEAN VISITS <span class="line-b"></span></p>
                 </div>
             </div>
-            <div class="item">
-                <img alt="" src="images/slider/slider-4.jpg" class="img-responsive">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Luxury Destinations</h1>
-                        <p><span class="line-t"></span>Anything but Odinary<span class="line-b"></span></p>
-                    </div>
+        </div>
+        <div class="item">
+            <img src="images/slider/cozy.jpg" alt="" class="img-responsive"
+                 style="width: 100%; height: 740px; object-fit: cover; transform: scale(1); transition: transform 2s ease-in-out;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Cozy Rooms</h1>
+                    <p><span class="line-t"></span>RESTFUL NIGHTS <span class="line-b"></span></p>
                 </div>
             </div>
-            <div class="item">
-                <img alt="" src="images/slider/slider-6.jpg" class="img-responsive">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Magical Memories</h1>
-                        <p><span class="line-t"></span>Bespoke experiences<span class="line-b"></span></p>
-                    </div>
+        </div>
+        <div class="item">
+            <img src="images/slider/lakes.jpg" alt="" class="img-responsive"
+                 style="width: 100%; height: 740px; object-fit: cover; transform: scale(1); transition: transform 2s ease-in-out;">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Lakeside</h1>
+                    <p><span class="line-t"></span>RELAX & UNWIND<span class="line-b"></span></p>
                 </div>
             </div>
+        </div>
+    </div>
         </div>
         <div class="check-avail">
             <div class="container">

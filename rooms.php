@@ -12,7 +12,7 @@ while($row = mysqli_fetch_assoc($result)){
     $room_name = $row['name'];
 
     // 2️⃣ Get images for this specific room from folder
-    $images = glob("images/rooms/room".$room_id."-*.*"); // e.g., room1-1.jpg, room1-2.jpg
+    $images = glob("images/rooms/room".$room_id."-*.*"); 
 
     // 3️⃣ If no images exist, use a room-specific default
     $default_image = "images/rooms/room".$room_id."-default.jpg";
@@ -20,7 +20,7 @@ while($row = mysqli_fetch_assoc($result)){
         if(file_exists($default_image)){
             $images[] = $default_image;
         } else {
-            $images[] = "images/rooms/room-overview-default-image.jpg"; // global default
+            $images[] = "images/rooms/room-overview-default-image.jpg"; 
         }
     }
 
